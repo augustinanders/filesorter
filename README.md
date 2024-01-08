@@ -44,4 +44,3 @@ If the source folder contains files like file1.txt, file2.js, and file3.txt, the
 └── .js/
     └── file2.js
 ```
-# filesorter
