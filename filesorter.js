@@ -18,7 +18,7 @@ function dirRead(err, files) {
 }
 
 function processFile(file) {
-  let extension = path.extname(file);
+  let extension = path.extname(file).slice(1);
   console.log("extension is " + extension);
 
   // Create the destination folder if it doesn't exist
