@@ -37,10 +37,10 @@ If the source folder contains files like file1.txt, file2.js, and file3.txt, the
 ```bash
 /source/folder/
 │
-├── .txt/
+├── txt/
 │   ├── file1.txt
 │   └── file3.txt
 │
-└── .js/
+└── js/
     └── file2.js
 ```
