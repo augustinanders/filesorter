@@ -29,7 +29,7 @@ To use this program, follow these steps:
 Suppose you run the program with the following command:
 
 ```bash
-node yourProgram.js /path/to/source/folder
+node filesorter.js /path/to/source/folder
 ```
 
 If the source folder contains files like file1.txt, file2.js, and file3.txt, the program will organize them as follows:
