@@ -1,7 +1,6 @@
 let fs = require("fs");
 let path = require("path");
 
-// Get the source folder from the command-line arguments
 let sourceFolder = process.argv[2];
 
 if (!sourceFolder) {
@@ -50,5 +49,3 @@ function moveSuccess(sourceFolder, extension, fileName) {
     `\x1b[90mMoved \x1b[36m${fileName}\x1b[0m \x1b[30mfrom \x1b[34m${sourceFolder}\x1b[0m \x1b[30mto \x1b[34m${sourceFolder}/\x1b[0m\x1b[1;34m${extension}\x1b[0m\x1b[0m`
   );
 }
-
-// if folder is already there, do not create it again
