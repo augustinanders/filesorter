@@ -18,12 +18,6 @@ To use this program, follow these steps:
 
    Replace `<sourceFolder>` with the path to the folder containing the files you want to organize.
 
-   Example:
-
-   ```bash
-   node filesorter.js /path/to/source/folder
-   ```
-
 ## Example
 
 Suppose you run the program with the following command:
