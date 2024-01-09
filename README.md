@@ -20,7 +20,17 @@ To use this program, follow these steps:
 
 ## Example
 
-Suppose you run the program with the following command:
+Suppose your source folder (`/path/to/source/folder`) contains the following files:
+
+```bash
+/path/to/source/folder/
+│
+├── file1.txt
+├── file2.js
+└── file3.txt
+```
+
+If you run the program with the following command:
 
 ```bash
 node filesorter.js /path/to/source/folder
